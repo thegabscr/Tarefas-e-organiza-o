@@ -1,0 +1,14 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(2, 0, 112);
+}
+
+@mixin button {
+    button {
+        width: 100px;
+        border-radius: 20px;
+        background-color: purple;
+    }
+}
