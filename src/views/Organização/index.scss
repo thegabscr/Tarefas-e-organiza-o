@@ -8,5 +8,9 @@
         border-radius: $main-border-radius;
     }
 
-    @include button
+    button {
+        @include main-button
+    }
+
+
 }

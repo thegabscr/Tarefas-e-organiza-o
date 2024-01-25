@@ -9,12 +9,16 @@ import Tarefas from './views/Tarefas/Tarefas.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/organizacao",
+    path: "/",
     element: <Organizacao />,
   },
   {
     path: "/tarefas",
     element: <Tarefas />,
+  },
+  {
+    path: "/organizacao",
+    element: <Organizacao />,
   },
 
 ]);
